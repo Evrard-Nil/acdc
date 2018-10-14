@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stack Blog</title>
+    <description>Software -  &lt;a href='http://stack.inria.fr'&gt;Stack&lt;/a&gt; — for Massively Geo-Distributed Infrastructures</description>
+    <link>http://localhost:4000/blog/</link>
+    <atom:link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 14 Oct 2018 17:44:37 +0200</pubDate>
+    <lastBuildDate>Sun, 14 Oct 2018 17:44:37 +0200</lastBuildDate>
+    <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>One Paper Has Been Accepted to ISPA 2018</title>
+        <description>&lt;h2 id=&quot;automatic-energy-efficient-hpc-programming-a-case-study&quot;&gt;Automatic Energy Efficient HPC Programming: A Case Study&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Hélène Coullon, Laurent Lefevre, Christian Perez, Issam Rais&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Energy consumption is one of the major challenges of modern datacenters and supercomputers. By applying Green Programming techniques, developers have to iteratively implement and test new versions of their software, thus evaluating the impact of each code version on their energy, power and performance objectives. This approach is manual and can be long, challenging and complicated, especially for High Performance Computing applications. In this paper, we formally introduces the definition of the Code Version Variability (CVV) leverage and present a first approach to automate Green Programming (i.e. CVV usage) by studying the specific use-case of an HPC stencil-based numerical code, used in production. This approach is based on the automatic generation of code versions thanks to a Domain Specific Language (DSL), and on the automatic choice of code version through a set of actors. Moreover, a real case study is introduced and evaluated though a set of benchmarks to show that several trade-offs are introduced by CVV. Finally, different kinds of production scenarios are evaluated through simulation to illustrate possible benefits of applying various actors on top of the CVV automation.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.swinflow.org/confs/2018/ispa/&quot;&gt;ISPA 2018&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 10 Oct 2018 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/blog/publications/2018/10/10/ispa18.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/publications/2018/10/10/ispa18.html</guid>
+        
+        
+        <category>publications</category>
+        
+      </item>
+    
+      <item>
+        <title>Postdoc position</title>
+        <description>&lt;h2 id=&quot;18-months-postdoc-position---verdi-project&quot;&gt;18 months postdoc position - VeRDi project&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Hélène Coullon&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We are opening a post-doc position in the VeRDi project.&lt;/p&gt;
+
+&lt;p&gt;The VeRDi project is funded by the French region Pays De La Loire 
+where Nantes is located. VeRDi is an acronym for Verified Reconfiguration
+Driven by execution. It aims at addressing distributed software reconfiguration 
+in an efficient and verified way&lt;/p&gt;
+
+&lt;p&gt;The postdoc position is part of the multi-disciplinary VeRDi project. 
+VeRDi can be divided in two different parts (though strongly related): 
+(1) the design of efficient distributed reconfiguration models and systems; 
+(2) the formalization of these models and the formal verification of some properties on them.&lt;/p&gt;
+
+&lt;p&gt;The STACK team and the other actors of the VeRDi project are researchers 
+and engineers specialized in the first aspect of the project. 
+The role of the postdoc candidate is thus to lead the second research aspect 
+of the project with Helene Coullon. To help the candidate in this difficult task, 
+two collaborations have already been initiated by Helene Coullon. 
+The postdoc candidate will collaborate with the STR team of the LS2N 
+specialized in Petri Nets and model checking, as well as with 
+the Northern Arizona University (Frederic Loulergue) for aspects related 
+to the proof assistant Coq. Moreover, the LS2N also holds the Inria 
+research team Gallinette, specialized in proof assistants and involved 
+the Coq development team. Finally, research is already ongoing regarding 
+the formal and verification aspects of the Madeus deployment model 
+designed by the team.&lt;/p&gt;
+
+&lt;p&gt;This work will be the starting point of the postdoc candidate.&lt;/p&gt;
+
+&lt;p&gt;The missions of the postdoc candidate are to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;formalize and prove few properties on reconfiguration models both statically and at runtime,&lt;/li&gt;
+  &lt;li&gt;enrich the team and participate to the team decisions from a formal perspective,&lt;/li&gt;
+  &lt;li&gt;collaborate with other teams specialized in model checking and proof assistants,&lt;/li&gt;
+  &lt;li&gt;publish in a top ranked conference.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The expected skills of the candidate are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;a strong knowledge on formalization, model checking and proof assistants,&lt;/li&gt;
+  &lt;li&gt;an ability to collaborate with other domains and to apply their knowledge to other domains,&lt;/li&gt;
+  &lt;li&gt;a strong motivation for the project and its subject.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The postdoc position is based in Nantes at the IMT Atlantique engineering school. The candidate will be a member of the STACK research group
+(http://stack.inria.fr/). This team is part of the LS2N laboratory of Nantes, 
+and the DAPI department of IMT Atlantique. The salary of the postdoc candidate
+will be 33500 with an additional annual bonus of 6.6%. By subtracting taxes 
+and spreading the bonus on each month, the net salary is equivalent to 2380e.&lt;/p&gt;
+
+&lt;p&gt;Please contact Helene Coullon to apply: helene.coullon AT inria.fr&lt;/p&gt;
+
+&lt;p&gt;More details are available here: 
+&lt;a href=&quot;http://helene-coullon.fr/download/postdoc-position.pdf&quot;&gt;http://helene-coullon.fr/download/postdoc-position.pdf&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 15 Sep 2018 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/blog/jobs/2018/09/15/jobverdi.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/jobs/2018/09/15/jobverdi.html</guid>
+        
+        
+        <category>jobs</category>
+        
+      </item>
+    
+      <item>
+        <title>Seminar and Collaboration at Northern Arizona University</title>
+        <description>&lt;h2 id=&quot;seminar-and-collaboration-at-northern-arizona-university&quot;&gt;Seminar and Collaboration at Northern Arizona University&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Hélène Coullon&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Hélène Coullon has been invited to the Nothern Arizona University from September 10th to 16th for a collaboration in link with the VeRDi project. She has given a seminar the 13th of September entitled “Performance, Software engineering and verification: a wining combination for HPC and Utility computing?”.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 13 Sep 2018 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/blog/publications/2018/09/13/NAU.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/publications/2018/09/13/NAU.html</guid>
+        
+        
+        <category>publications</category>
+        
+      </item>
+    
+      <item>
+        <title>VeRDi project accepted</title>
+        <description>&lt;h2 id=&quot;verified-reconfiguration-driven-by-execution&quot;&gt;Verified Reconfiguration Driven by Execution&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Hélène Coullon&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The VeRDi project is funded by the French region Pays De La Loire where Nantes is located. VeRDi is an acronym for Verified Reconfiguration Driven by execution. It aims at addressing distributed software  reconfiguration in an efficient and verified way.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 01 Sep 2018 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/blog/publications/2018/09/01/Verdi.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/publications/2018/09/01/Verdi.html</guid>
+        
+        
+        <category>publications</category>
+        
+      </item>
+    
+      <item>
+        <title>Article accepted by the journal Annals of Telecommunications</title>
+        <description>&lt;h2 id=&quot;isolation-in-cloud-computing-infrastructures-new-security-challenges&quot;&gt;Isolation in Cloud Computing Infrastructures: New Security Challenges&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Mohammad-Mahdi Bazm, Marc Lacoste, Mario Südholt, Jean-Marc Menaud&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Cloud computing infrastructures are highly based on the sharing of
+hardware resources among different clients. The infrastructures
+leverage virtualization to share physical resources among several
+self- contained execution environments like virtual machines and Linux
+containers. Isolation is a core security challenge for such
+paradigm. It may be threatened through side-channels, created due to
+the sharing of physical resources like caches of the processor or by
+mechanisms implemented in the virtualization layer. Side-channel
+attacks (SCAs) exploit and use such leaky channels to obtain sensitive
+data like kernel information. This paper aims to clarify the nature of
+this threat for cloud infrastructures. Current SCAs are done locally
+and exploit isolation challenges of virtualized environments to
+retrieve sensitive information. In this paper, we also clarify the
+concept of distributed side-channel attack (DSCA). We explore how such
+attacks can threaten isolation of any virtualized environments such as
+cloud computing infrastructures. Finally, we study a set of different
+applicable countermeasures for attack mitigation in cloud
+infrastructures.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 17 Aug 2018 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/blog/publications/2018/08/17/AnnalsTelecommunications.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/publications/2018/08/17/AnnalsTelecommunications.html</guid>
+        
+        
+        <category>publications</category>
+        
+      </item>
+    
+      <item>
+        <title>Congratulations to Thomas for his habiliation</title>
+        <description>&lt;h2 id=&quot;reconfiguration-dynamique-darchitectures-logicielles--des-métaclasses-aux--nuages-verts-&quot;&gt;Reconfiguration dynamique d’architectures logicielles : des métaclasses aux « nuages verts »&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/images-blog/Thomas-HDR1.jpg&quot; alt=&quot;drawing&quot; width=&quot;355px&quot; /&gt;
+&lt;img src=&quot;/blog/images-blog/Thomas-HDR2.jpg&quot; alt=&quot;drawing&quot; width=&quot;200px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cette habilitation à diriger des recherches présente une synthèse de
+mes travaux ayant trait à la reconfiguration dynamique d’architectures
+logicielles.&lt;/p&gt;
+
+&lt;p&gt;En première partie, je propose une analyse de l’adaptation dynamique
+du logiciel avec la volonté de poser les concepts de base et
+d’identifier les verrous à lever. Je motive l’intérêt de l’adaptation
+dynamique et modélise son processus de développement. Je présente un
+nombre de caractéristiques indispensables à l’adaptation dont la
+réification et la modularité. Je traite alors l’adaptation dynamique
+du logiciel comme un objet de première classe introduisant un
+découplage spatio-temporel entre code métier et logique
+d’adaptation. L’adaptation dynamique ne pouvant se faire au détriment
+de la qualité du logiciel et de son intégrité, j’énumère un nombre de
+propriétés indispensables à respecter, de pistes à étudier pour
+réaliser à l’exécution ce processus d’adaptation du logiciel.&lt;/p&gt;
+
+&lt;p&gt;En deuxième partie, je présente ma contribution à la mise en œuvre de
+l’adaptation dynamique pour les logiciels à base de composants. Dans
+un premier temps, je propose un patron d’auto-administration pour les
+architectures à composants, des langages dédiés pour la navigation et
+la reconfiguration dans les architectures logicielles Fractal, un
+framework pour faciliter la création d’applications sensibles au
+contexte. Dans un second temps, je développe une approche multi-étape
+pour des reconfigurations dynamiques fiables, qui contient à la fois
+une partie prévention de fautes basée sur une analyse statique et une
+partie tolérance aux fautes assurée par un moniteur
+transactionnel. Cette approche s’appuie sur une spécification des
+(re)configurations du modèle Fractal basée sur une logique du premier
+ordre.&lt;/p&gt;
+
+&lt;p&gt;En troisième partie, je montre que la reconfiguration dynamique dans
+les « architectures en nuages » (Cloud computing) peut apporter une
+réponse à un enjeu sociétal important, à savoir les transitions
+numérique et énergétique. Contrairement aux travaux actuels qui visent
+à améliorer l’efficacité énergétique des centres de données en
+proposant des solutions dans les couches basses du Cloud, je préconise
+une approche d’éco-élasticité logicielle sur ses couches hautes. En
+m’inspirant à la fois du concept d’innovation frugale (Jugaad) et du
+mécanisme d’effacement de la consommation électrique, un certain
+nombre d’artefacts originaux comme le Cloud SLA, l’effacement de la
+consommation du logiciel, la virtualisation de l’énergie ou encore le
+SaaS green energy-aware, sont suggérés pour diminuer l’empreinte
+carbone des architectures en nuages.&lt;/p&gt;
+
+&lt;p&gt;En conclusion, je dresse un bilan final de ma contribution et présente
+mes perspectives de recherche centrées d’abord sur une généralisation
+de l’approche précédente à l’aide de méta-modèles, puis sur la
+conception de micro-services « verts ».&lt;/p&gt;
+
+&lt;p&gt;Further information, please vise the &lt;a href=&quot;http://web.imt-atlantique.fr/x-info/ledoux/&quot;&gt;Thomas’s&lt;/a&gt; webpages.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 17 Jul 2018 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/blog/events/2018/07/17/HdR-Thomas.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/events/2018/07/17/HdR-Thomas.html</guid>
+        
+        
+        <category>events</category>
+        
+      </item>
+    
+      <item>
+        <title>Article accepted to GlobeCom 2018</title>
+        <description>&lt;h2 id=&quot;a-tree-based-approach-to-locate-object-replicas-in-a-fog-storage-infrastructure&quot;&gt;A Tree-Based Approach to locate Object Replicas in a Fog Storage Infrastructure&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Bastien Confais, Adrien Lebre, Benoit Parrein&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Fog Computing infrastructures have been proposed as an alternative to
+Cloud Computing to provide computing with low latency for the Internet
+of Things (IoT). A few storage systems have been proposed to store
+data in those infrastructures. Most of them are relying on a
+Distributed Hash Table (DHT) which is not efficient because the node
+storing the location of the data may be placed far away from the
+object replicas. This leads to an access time of more than five
+seconds in some network architectures. In this paper, we propose to
+replace the DHT by a tree-based approach mapping the physical
+topology. Servers look for the location of an object by requesting
+successively their ancestors in the tree. Location records are also
+relocated close to the object replicas not only to limit the network
+traffic when requesting an object, but also to avoid an overload of
+the root node. We also propose to modify the Dijkstra’s algorithm to
+compute the tree used. Finally, we evaluate our approach using the
+object store InterPlanetary FileSystem (IPFS) on Grid’5000 using both
+a micro experiment with a simple network topology and a macro
+experiment using the topology of the French National Research and
+Education Network (RENATER). We show that the time to locate an object
+in our approach is less than 15 ms on average which is around 20%
+better than using a DHT.&lt;/p&gt;
+
+&lt;p&gt;Further information on the &lt;a href=&quot;http://globecom2018.ieee-globecom.org&quot;&gt;GlobeCom 2018&lt;/a&gt; website.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 14 Jul 2018 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/blog/publications/2018/07/14/GlobeCom.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/publications/2018/07/14/GlobeCom.html</guid>
+        
+        
+        <category>publications</category>
+        
+      </item>
+    
+      <item>
+        <title>SysMics project (Toward Systems Medicine based on Genomics) accepted</title>
+        <description>&lt;p&gt;SysMics aims at federating the NExT scientific community toward a
+common objective: anticipate the emergence of systems medicine by
+co-developing 3 approaches in population-scale genomics: genotyping by
+sequencing, cell-by-cell profiling and microbiome analysis.&lt;/p&gt;
+
+&lt;p&gt;This project is financed by the &lt;a href=&quot;http://next-isite.fr&quot;&gt;Nantes
+excellency initiative in Medecine and Informatics (NeXT)&lt;/a&gt;. It will
+start in the 3rd quarter of 2018.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 07 Jul 2018 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/blog/projects/2018/07/07/Project-Accepted-SysMics.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/projects/2018/07/07/Project-Accepted-SysMics.html</guid>
+        
+        
+        <category>projects</category>
+        
+      </item>
+    
+      <item>
+        <title>Article accepted by IEEE TPDS</title>
+        <description>&lt;h2 id=&quot;putting-the-next-500-vm-placement-algorithms-to-the-acid-test&quot;&gt;Putting the Next 500 VM Placement Algorithms to the Acid Test&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Adrien Lebre, Jonathan Pastor, Anthony Simonet, Mario Südholt&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Most current infrastructures for cloud computing leverage static and
+greedy policies for the placement of virtual machines. Such policies
+impede the optimal allocation of resources from the infrastructure
+provider viewpoint. Over the last decade, more dynamic and often more
+efficient policies based, e.g., on consolidation and load balancing
+techniques, have been developed. Due to the underlying complexity of
+cloud infrastructures, these policies are evaluated either using
+limited scale testbeds/in-vivo experiments or ad-hoc simulators. These
+validation methodologies are unsatisfactory for two important reasons:
+they (i) do not model precisely enough real production platforms
+(size, workload variations, failure, etc.) and (ii) do not enable the
+fair comparison of different approaches. More generally, new placement
+algorithms are thus continuously being proposed without actually
+identifying their benefits with respect to the state of the art.&lt;/p&gt;
+
+&lt;p&gt;In this article, we show how VMPlaceS, a dedicated simulation
+framework enables researchers (i) to study and compare VM placement
+algorithms from the infrastructure perspective, (ii) to detect
+possible limitations at large scale and (iii) to easily investigate
+different design choices. Built on top of the SimGrid simulation
+platform, VMPlaceS provides programming support to ease the
+implementation of placement algorithms and runtime support dedicated
+to load injection and execution trace analysis. To illustrate the
+relevance of VMPlaceS, we first discuss a few experiments that enabled
+us to study in details three well known VM placement
+strategies. Diving into details, we also identify several
+modifications that can significantly increase their performance in
+terms of reactivity. Second, we complete this overall presentation of
+VMPlaceS by focusing on the energy efficiency of the well-know FFD
+strategy. We believe that VMPlaceS will allow researchers to validate
+the benefits of new placement algorithms, thus accelerating placement
+research and favouring the transfer of results to IaaS production
+platforms.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 15 Jun 2018 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/blog/publications/2018/06/15/One-paper-Accepted-By-IEEE-TPDS.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/publications/2018/06/15/One-paper-Accepted-By-IEEE-TPDS.html</guid>
+        
+        
+        <category>publications</category>
+        
+      </item>
+    
+      <item>
+        <title>Article accepted to HotEdge 2018</title>
+        <description>&lt;h2 id=&quot;edge-computing-resource-management-system-a-critical-building-block&quot;&gt;Edge Computing Resource Management System: a Critical Building Block!&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Ronan-Alexandre Cherrueau, Adrien Lebre, Dimitri Pertin, Fetahi Wuhib and João Monteiro Soares&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Most current infrastructures for cloud computing leverage static and
+greedy policies for the placement of virtual machines. Such policies
+impede the optimal allocation of resources from the infrastructure
+provider viewpoint. Over the last decade, more dynamic and often more
+efficient policies based, e.g., on consolidation and load balancing
+techniques, have been developed. Due to the underlying complexity of
+cloud infrastructures, these policies are evaluated either using
+limited scale testbeds/in-vivo experiments or ad-hoc simulators. These
+validation methodologies are unsatisfactory for two important reasons:
+they (i) do not model precisely enough real production platforms
+(size, workload variations, failure, etc.) and (ii) do not enable the
+fair comparison of different approaches. More generally, new placement
+algorithms are thus continuously being proposed without actually
+identifying their benefits with respect to the state of the art.&lt;/p&gt;
+
+&lt;p&gt;While it is clear that edge infrastructures are required for emerging
+use-cases related to IoT, VR or NFV, there is currently no resource
+management system able to deliver all the features that make the
+success of cloud computing for the edge (e.g., an OpenStack for the
+edge). Since building a system from scratch is impractical, this paper
+provides reflections regarding how existing solutions can be
+leveraged. To that end, we provide a list of the fea- tures required
+to administrate and use edge computing re- sources, and investigate
+how existing IaaS managers (i.e., OpenStack) satisfy these
+requirements. Finally, we iden- tify from this study two approaches to
+design an edge infrastructure manager that fulfills our requirements,
+and discuss their pros and cons. This paper aims at initiating the
+discussion in our community.&lt;/p&gt;
+
+&lt;p&gt;Further information on the &lt;a href=&quot;https://www.usenix.org/conference/hotedge18/presentation/cherrueau&quot;&gt;HotEdge website&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 25 May 2018 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/blog/publications/2018/05/25/One-paper-Accepted-To-HotEdge.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/publications/2018/05/25/One-paper-Accepted-To-HotEdge.html</guid>
+        
+        
+        <category>publications</category>
+        
+      </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Article accepted to GlobeCom 2018</title>
+  <meta name="description" content="A Tree-Based Approach to locate Object Replicas in a Fog Storage Infrastructure">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="/blog/css/normalize.css">
+  <link rel="stylesheet" href="/blog/css/style.css">
+</head>
+
+
+  <body>
+
+      <header>
+      <h1>
+          <a href="http://stack.inria.fr/index.html"><img src="http://stack.inria.fr/img/logostack-white-full.png" width="150px"></a>
+      </h1>
+      <h2>
+          <a href="http://stack.inria.fr/index.html">Software — Stack —  for Massively Geo-Distributed Infrastructures</a>
+      </h2>
+      <figure>
+        <a href="https://www.imt-atlantique.fr/">
+          <img src="http://stack.inria.fr/img/logo-imta.png" alt="logo IMT Atlantique" />
+        </a>
+        <a href="https://www.inria.fr/">
+          <img src="http://stack.inria.fr/img/logo-inria.png" alt="logo inria" />
+        </a>
+        <a href="https://ls2n.fr/">
+          <img src="http://stack.inria.fr/img/logo-ls2n.png" alt="logo LS2N" />
+        </a>
+<!--        <a href="http://www.univ-nantes.fr/">
+          <img src="img/logo-univ-nantes.png" alt="logo Université de Nantes" />
+        </a>-->
+      </figure>
+      <!-- <h2> -->
+      <!--     Inria team in Nantes -->
+      <!-- </h2> -->
+      <nav>
+	<a href="http://stack.inria.fr/blog/">
+          News
+        </a>
+	<a href="http://stack.inria.fr/blog/category/jobs.html">
+          Jobs
+        </a>
+        <a href="http://stack.inria.fr/members.html">
+          Members
+        </a>
+        <a href="http://stack.inria.fr/papers.html">
+          Publications
+        </a>
+        <a href="http://stack.inria.fr/projects.html">
+          Projects
+        </a>
+        <a href="http://stack.inria.fr/platforms.html">
+          Platforms & Software
+        </a>
+	<a href="http://stack.inria.fr/visit.html">
+          Contact
+        </a>
+      </nav>
+  </header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+ <main>
+  <section>
+   <h3>Article accepted to GlobeCom 2018 - <time datetime="2018-07-14T00:00:00+02:00" itemprop="datePublished">Jul 14, 2018</time></h3>
+   <h2 id="a-tree-based-approach-to-locate-object-replicas-in-a-fog-storage-infrastructure">A Tree-Based Approach to locate Object Replicas in a Fog Storage Infrastructure</h2>
+
+<ul>
+  <li>Bastien Confais, Adrien Lebre, Benoit Parrein</li>
+</ul>
+
+<p>Fog Computing infrastructures have been proposed as an alternative to
+Cloud Computing to provide computing with low latency for the Internet
+of Things (IoT). A few storage systems have been proposed to store
+data in those infrastructures. Most of them are relying on a
+Distributed Hash Table (DHT) which is not efficient because the node
+storing the location of the data may be placed far away from the
+object replicas. This leads to an access time of more than five
+seconds in some network architectures. In this paper, we propose to
+replace the DHT by a tree-based approach mapping the physical
+topology. Servers look for the location of an object by requesting
+successively their ancestors in the tree. Location records are also
+relocated close to the object replicas not only to limit the network
+traffic when requesting an object, but also to avoid an overload of
+the root node. We also propose to modify the Dijkstra’s algorithm to
+compute the tree used. Finally, we evaluate our approach using the
+object store InterPlanetary FileSystem (IPFS) on Grid’5000 using both
+a micro experiment with a simple network topology and a macro
+experiment using the topology of the French National Research and
+Education Network (RENATER). We show that the time to locate an object
+in our approach is less than 15 ms on average which is around 20%
+better than using a DHT.</p>
+
+<p>Further information on the <a href="http://globecom2018.ieee-globecom.org">GlobeCom 2018</a> website.</p>
+
+
+  </section>
+ </main>
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+</footer>
+
+
+  </body>
+
+</html>
