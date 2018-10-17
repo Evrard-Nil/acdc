@@ -61,4 +61,4 @@ Post will be created in _posttest/date-title.markdown
 - [ ] string setUnderline(string txt)
 - [ ] string addPicture(string path)
 
-written w/ Axelc
+written w/ github.com/acoudray1/
