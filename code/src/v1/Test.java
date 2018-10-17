@@ -14,6 +14,8 @@ import java.util.Scanner;
 public class Test {
 
 	public static void main(String[] args) throws IOException {
+		
+		//Attributes of post
 		String layout= "post";
 		String title;
 		String title2;
@@ -26,6 +28,7 @@ public class Test {
 		String authorDet="*";
 		int i =10;
 		
+		//
 		Scanner sc=new Scanner(System.in);
 		Scanner scInt=new Scanner(System.in);
 		
@@ -47,8 +50,11 @@ public class Test {
 		System.out.println("texte de la publication");
 		texte = sc.nextLine();
 		
+		
 		sc.close();
 		scInt.close();
+		
+		// Write file 
 		String filename= "../_posttest/"+date+"-"+title+".markdown";
 		BufferedWriter writer = new BufferedWriter(new FileWriter(filename));
 		writer.append(sep);
@@ -69,6 +75,14 @@ public class Test {
 		writer.append("\n\n");
 		writer.append(texte);
 		writer.close();
+		
+		//TODO: run - jekyll build : .md ---> hmtl
+		
+		//TODO: run - jekyll serve : launch a demo of the website
+		
+		//TODO: Accept demo or modify post
+		
+		//TODO: run - git pull / add* / commit / push 
 	}
 
 }
