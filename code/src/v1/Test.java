@@ -49,7 +49,7 @@ public class Test {
 		
 		sc.close();
 		scInt.close();
-		String filename= "/home/daillet/IMT/project/_posttest/"+date+"-"+title+".markdown";
+		String filename= "../_posttest/"+date+"-"+title+".markdown";
 		BufferedWriter writer = new BufferedWriter(new FileWriter(filename));
 		writer.append(sep);
 		writer.append("\n");
