@@ -60,3 +60,5 @@ Post will be created in _posttest/date-title.markdown
 - [ ] string setItalic(string txt)
 - [ ] string setUnderline(string txt)
 - [ ] string addPicture(string path)
+
+written w/ Axelc
