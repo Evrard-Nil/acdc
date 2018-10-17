@@ -1,13 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Stack Blog</title>
+    <title>LOCAL Stack Blog</title>
     <description>Software -  &lt;a href='http://stack.inria.fr'&gt;Stack&lt;/a&gt; — for Massively Geo-Distributed Infrastructures</description>
     <link>http://localhost:4000/blog/</link>
     <atom:link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 14 Oct 2018 17:44:37 +0200</pubDate>
-    <lastBuildDate>Sun, 14 Oct 2018 17:44:37 +0200</lastBuildDate>
+    <pubDate>Sun, 14 Oct 2018 17:55:39 +0200</pubDate>
+    <lastBuildDate>Sun, 14 Oct 2018 17:55:39 +0200</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>testing manual post on jekyll</title>
+        <description>&lt;h2 id=&quot;this-post-is-a-test&quot;&gt;this post is a TEST&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Evrard-Nil Daillet&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;qsdc12
+qsc3
+qsd4
+cqs5
+dc
+qsd88
+cqsqs8dc
+dcqsdc9
+qsdcqsd6c
+qsdc5
+ssqdc5
+qqsdcd6cdcqsdcqshhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhdcsidsqsdcqs4561&lt;/p&gt;
+</description>
+        <pubDate>Sat, 13 Oct 2018 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/blog/publications/2018/10/13/Ajout_manuel_test.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/publications/2018/10/13/Ajout_manuel_test.html</guid>
+        
+        
+        <category>publications</category>
+        
+      </item>
     
       <item>
         <title>One Paper Has Been Accepted to ISPA 2018</title>
@@ -351,53 +379,6 @@ platforms.&lt;/p&gt;
         <pubDate>Fri, 15 Jun 2018 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/blog/publications/2018/06/15/One-paper-Accepted-By-IEEE-TPDS.html</link>
         <guid isPermaLink="true">http://localhost:4000/blog/publications/2018/06/15/One-paper-Accepted-By-IEEE-TPDS.html</guid>
-        
-        
-        <category>publications</category>
-        
-      </item>
-    
-      <item>
-        <title>Article accepted to HotEdge 2018</title>
-        <description>&lt;h2 id=&quot;edge-computing-resource-management-system-a-critical-building-block&quot;&gt;Edge Computing Resource Management System: a Critical Building Block!&lt;/h2&gt;
-
-&lt;p&gt;&lt;em&gt;Ronan-Alexandre Cherrueau, Adrien Lebre, Dimitri Pertin, Fetahi Wuhib and João Monteiro Soares&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Most current infrastructures for cloud computing leverage static and
-greedy policies for the placement of virtual machines. Such policies
-impede the optimal allocation of resources from the infrastructure
-provider viewpoint. Over the last decade, more dynamic and often more
-efficient policies based, e.g., on consolidation and load balancing
-techniques, have been developed. Due to the underlying complexity of
-cloud infrastructures, these policies are evaluated either using
-limited scale testbeds/in-vivo experiments or ad-hoc simulators. These
-validation methodologies are unsatisfactory for two important reasons:
-they (i) do not model precisely enough real production platforms
-(size, workload variations, failure, etc.) and (ii) do not enable the
-fair comparison of different approaches. More generally, new placement
-algorithms are thus continuously being proposed without actually
-identifying their benefits with respect to the state of the art.&lt;/p&gt;
-
-&lt;p&gt;While it is clear that edge infrastructures are required for emerging
-use-cases related to IoT, VR or NFV, there is currently no resource
-management system able to deliver all the features that make the
-success of cloud computing for the edge (e.g., an OpenStack for the
-edge). Since building a system from scratch is impractical, this paper
-provides reflections regarding how existing solutions can be
-leveraged. To that end, we provide a list of the fea- tures required
-to administrate and use edge computing re- sources, and investigate
-how existing IaaS managers (i.e., OpenStack) satisfy these
-requirements. Finally, we iden- tify from this study two approaches to
-design an edge infrastructure manager that fulfills our requirements,
-and discuss their pros and cons. This paper aims at initiating the
-discussion in our community.&lt;/p&gt;
-
-&lt;p&gt;Further information on the &lt;a href=&quot;https://www.usenix.org/conference/hotedge18/presentation/cherrueau&quot;&gt;HotEdge website&lt;/a&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Fri, 25 May 2018 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/blog/publications/2018/05/25/One-paper-Accepted-To-HotEdge.html</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/publications/2018/05/25/One-paper-Accepted-To-HotEdge.html</guid>
         
         
         <category>publications</category>
