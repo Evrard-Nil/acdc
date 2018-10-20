@@ -3,10 +3,10 @@
   <channel>
     <title>LOCAL Stack Blog</title>
     <description>Software -  &lt;a href='http://stack.inria.fr'&gt;Stack&lt;/a&gt; — for Massively Geo-Distributed Infrastructures</description>
-    <link>/blog/</link>
-    <atom:link href="/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 17 Oct 2018 06:56:41 +0200</pubDate>
-    <lastBuildDate>Wed, 17 Oct 2018 06:56:41 +0200</lastBuildDate>
+    <link>http://localhost:4000/blog/</link>
+    <atom:link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 20 Oct 2018 16:07:43 +0200</pubDate>
+    <lastBuildDate>Sat, 20 Oct 2018 16:07:43 +0200</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
@@ -29,8 +29,8 @@ ssqdc5
 qqsdcd6cdcqsdcqshhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhdcsidsqsdcqs4561&lt;/p&gt;
 </description>
         <pubDate>Sat, 13 Oct 2018 00:00:00 +0200</pubDate>
-        <link>/blog/publications/2018/10/13/Ajout_manuel_test.html</link>
-        <guid isPermaLink="true">/blog/publications/2018/10/13/Ajout_manuel_test.html</guid>
+        <link>http://localhost:4000/blog/publications/2018/10/13/Ajout_manuel_test.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/publications/2018/10/13/Ajout_manuel_test.html</guid>
         
         
         <category>publications</category>
@@ -48,8 +48,8 @@ qqsdcd6cdcqsdcqshhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhdcsidsqsdcqs4561&
 &lt;p&gt;&lt;a href=&quot;http://www.swinflow.org/confs/2018/ispa/&quot;&gt;ISPA 2018&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 10 Oct 2018 00:00:00 +0200</pubDate>
-        <link>/blog/publications/2018/10/10/ispa18.html</link>
-        <guid isPermaLink="true">/blog/publications/2018/10/10/ispa18.html</guid>
+        <link>http://localhost:4000/blog/publications/2018/10/10/ispa18.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/publications/2018/10/10/ispa18.html</guid>
         
         
         <category>publications</category>
@@ -121,8 +121,8 @@ and spreading the bonus on each month, the net salary is equivalent to 2380e.&lt
 &lt;a href=&quot;http://helene-coullon.fr/download/postdoc-position.pdf&quot;&gt;http://helene-coullon.fr/download/postdoc-position.pdf&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 15 Sep 2018 00:00:00 +0200</pubDate>
-        <link>/blog/jobs/2018/09/15/jobverdi.html</link>
-        <guid isPermaLink="true">/blog/jobs/2018/09/15/jobverdi.html</guid>
+        <link>http://localhost:4000/blog/jobs/2018/09/15/jobverdi.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/jobs/2018/09/15/jobverdi.html</guid>
         
         
         <category>jobs</category>
@@ -140,8 +140,8 @@ and spreading the bonus on each month, the net salary is equivalent to 2380e.&lt
 &lt;p&gt;Hélène Coullon has been invited to the Nothern Arizona University from September 10th to 16th for a collaboration in link with the VeRDi project. She has given a seminar the 13th of September entitled “Performance, Software engineering and verification: a wining combination for HPC and Utility computing?”.&lt;/p&gt;
 </description>
         <pubDate>Thu, 13 Sep 2018 00:00:00 +0200</pubDate>
-        <link>/blog/publications/2018/09/13/NAU.html</link>
-        <guid isPermaLink="true">/blog/publications/2018/09/13/NAU.html</guid>
+        <link>http://localhost:4000/blog/publications/2018/09/13/NAU.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/publications/2018/09/13/NAU.html</guid>
         
         
         <category>publications</category>
@@ -160,8 +160,8 @@ and spreading the bonus on each month, the net salary is equivalent to 2380e.&lt
 
 </description>
         <pubDate>Sat, 01 Sep 2018 00:00:00 +0200</pubDate>
-        <link>/blog/publications/2018/09/01/Verdi.html</link>
-        <guid isPermaLink="true">/blog/publications/2018/09/01/Verdi.html</guid>
+        <link>http://localhost:4000/blog/publications/2018/09/01/Verdi.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/publications/2018/09/01/Verdi.html</guid>
         
         
         <category>publications</category>
@@ -196,8 +196,8 @@ applicable countermeasures for attack mitigation in cloud
 infrastructures.&lt;/p&gt;
 </description>
         <pubDate>Fri, 17 Aug 2018 00:00:00 +0200</pubDate>
-        <link>/blog/publications/2018/08/17/AnnalsTelecommunications.html</link>
-        <guid isPermaLink="true">/blog/publications/2018/08/17/AnnalsTelecommunications.html</guid>
+        <link>http://localhost:4000/blog/publications/2018/08/17/AnnalsTelecommunications.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/publications/2018/08/17/AnnalsTelecommunications.html</guid>
         
         
         <category>publications</category>
@@ -265,8 +265,8 @@ conception de micro-services « verts ».&lt;/p&gt;
 
 </description>
         <pubDate>Tue, 17 Jul 2018 00:00:00 +0200</pubDate>
-        <link>/blog/events/2018/07/17/HdR-Thomas.html</link>
-        <guid isPermaLink="true">/blog/events/2018/07/17/HdR-Thomas.html</guid>
+        <link>http://localhost:4000/blog/events/2018/07/17/HdR-Thomas.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/events/2018/07/17/HdR-Thomas.html</guid>
         
         
         <category>events</category>
@@ -307,8 +307,8 @@ better than using a DHT.&lt;/p&gt;
 
 </description>
         <pubDate>Sat, 14 Jul 2018 00:00:00 +0200</pubDate>
-        <link>/blog/publications/2018/07/14/GlobeCom.html</link>
-        <guid isPermaLink="true">/blog/publications/2018/07/14/GlobeCom.html</guid>
+        <link>http://localhost:4000/blog/publications/2018/07/14/GlobeCom.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/publications/2018/07/14/GlobeCom.html</guid>
         
         
         <category>publications</category>
@@ -328,8 +328,8 @@ start in the 3rd quarter of 2018.&lt;/p&gt;
 
 </description>
         <pubDate>Sat, 07 Jul 2018 00:00:00 +0200</pubDate>
-        <link>/blog/projects/2018/07/07/Project-Accepted-SysMics.html</link>
-        <guid isPermaLink="true">/blog/projects/2018/07/07/Project-Accepted-SysMics.html</guid>
+        <link>http://localhost:4000/blog/projects/2018/07/07/Project-Accepted-SysMics.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/projects/2018/07/07/Project-Accepted-SysMics.html</guid>
         
         
         <category>projects</category>
@@ -377,8 +377,8 @@ research and favouring the transfer of results to IaaS production
 platforms.&lt;/p&gt;
 </description>
         <pubDate>Fri, 15 Jun 2018 00:00:00 +0200</pubDate>
-        <link>/blog/publications/2018/06/15/One-paper-Accepted-By-IEEE-TPDS.html</link>
-        <guid isPermaLink="true">/blog/publications/2018/06/15/One-paper-Accepted-By-IEEE-TPDS.html</guid>
+        <link>http://localhost:4000/blog/publications/2018/06/15/One-paper-Accepted-By-IEEE-TPDS.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/publications/2018/06/15/One-paper-Accepted-By-IEEE-TPDS.html</guid>
         
         
         <category>publications</category>
