@@ -1,0 +1,10 @@
+---
+layout: post
+title: "sdsdsd"
+categories: post
+date: 2018-10-20
+---
+
+*git test*
+
+git status checking

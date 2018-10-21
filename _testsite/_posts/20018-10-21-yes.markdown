@@ -1,0 +1,10 @@
+---
+layout: post
+title: "yes"
+categories: post
+date: 20018-10-21
+---
+
+*me*
+
+git status checker
