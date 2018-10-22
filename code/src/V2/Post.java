@@ -199,14 +199,39 @@ public class Post {
 		}
 	}
 	
-	public void git(String commit) throws InterruptedException {
+	public void gitCommit(String commit) throws InterruptedException {
 		final boolean isWindows = System.getProperty("os.name").toLowerCase().startsWith("windows");
 		try {
 			ProcessBuilder builder = new ProcessBuilder();
 			if (isWindows) {
 				builder.command("cmd.exe", "/c", "git status");
 			} else {
-				builder.command("sh", "-c", "git status ; git add . ; git commit -m \""+commit+"\"; git status ; git push");
+				builder.command("sh", "-c", "git status ; git add . ; git commit -m \""+commit+"\"; git status");
+			}
+			builder.directory(new File(System.getProperty("user.home")+"/IMT/project/_testsite/"));
+			Process process = builder.start();
+			StreamGobbler streamGobbler = new StreamGobbler(process.getInputStream(), System.out::println);
+			Executors.newSingleThreadExecutor().submit(streamGobbler);
+			int exitCode = process.waitFor();
+			assert exitCode == 0;
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	public void gitPush() throws InterruptedException {
+		final boolean isWindows = System.getProperty("os.name").toLowerCase().startsWith("windows");
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Username:");
+		String username = sc.nextLine();
+		System.out.println("Pwd:");
+		String pwd = sc.nextLine();
+		try {
+			ProcessBuilder builder = new ProcessBuilder();
+			if (isWindows) {
+				builder.command("cmd.exe", "/c", "git status");
+			} else {
+				builder.command("sh", "-c", "git config --global user.name \""+username+"\";git config --global user.password \""+pwd+"\";git push");
 			}
 			builder.directory(new File(System.getProperty("user.home")+"/IMT/project/_testsite/"));
 			Process process = builder.start();

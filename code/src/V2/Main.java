@@ -52,7 +52,8 @@ public class Main {
 
 		try {
 			t.demo();
-			t.git("add of file: "+t.getDate()+"-"+t.getTitle().replace(' ','_')+".markdown to _testsite folder");
+			t.gitCommit("add of file: "+t.getDate()+"-"+t.getTitle().replace(' ','_')+".markdown to _testsite folder");
+			t.gitPush();
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
