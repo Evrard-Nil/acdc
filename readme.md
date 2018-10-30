@@ -4,17 +4,17 @@
 This repo contains the latest code of ACDC project.
 
 
-The purpose of the project is to allow the dynamic addition of post on a site hosted on github.
+The purpose of the project is to allow the dynamic addition of post on a site hosted via github pages.
 
 Step 1: Acquire the different entries to make an article
 
 Step 2: Generate a .md file of the post
 
-*Step 3: Using jeyll, turn the markdown files into html*
+Step 3: Using jeyll, turn the markdown files into html
 
-*Step 4: Using jekyll, launch a demo of the site with the new post*
+Step 4: Using jekyll, launch a demo of the site with the new post
 
-*Step 5: Under user validation, push the changes on git*
+Step 5: Under user validation, push the changes on git
 
 ## Run this project
 ***
