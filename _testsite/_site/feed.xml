@@ -5,9 +5,24 @@
     <description>Software -  &lt;a href='http://stack.inria.fr'&gt;Stack&lt;/a&gt; — for Massively Geo-Distributed Infrastructures</description>
     <link>http://localhost:4000/blog/</link>
     <atom:link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 06 Nov 2018 17:04:39 +0100</pubDate>
-    <lastBuildDate>Tue, 06 Nov 2018 17:04:39 +0100</lastBuildDate>
+    <pubDate>Tue, 06 Nov 2018 17:09:30 +0100</pubDate>
+    <lastBuildDate>Tue, 06 Nov 2018 17:09:30 +0100</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>random</title>
+        <description>&lt;p&gt;&lt;em&gt;me&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;star-my-git&quot;&gt;Star my git&lt;/h2&gt;
+</description>
+        <pubDate>Thu, 01 Nov 2018 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/blog/post/2018/11/01/random.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/post/2018/11/01/random.html</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
     
       <item>
         <title>test</title>
@@ -138,21 +153,6 @@
         <pubDate>Sat, 20 Oct 2018 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/blog/post/2018/10/20/sdsd.html</link>
         <guid isPermaLink="true">http://localhost:4000/blog/post/2018/10/20/sdsd.html</guid>
-        
-        
-        <category>post</category>
-        
-      </item>
-    
-      <item>
-        <title>titititirke</title>
-        <description>&lt;p&gt;&lt;em&gt;me&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;testing auto-push&lt;/p&gt;
-</description>
-        <pubDate>Fri, 19 Oct 2018 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/blog/post/2018/10/19/titititirke.html</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/post/2018/10/19/titititirke.html</guid>
         
         
         <category>post</category>
