@@ -5,9 +5,24 @@
     <description>Software -  &lt;a href='http://stack.inria.fr'&gt;Stack&lt;/a&gt; — for Massively Geo-Distributed Infrastructures</description>
     <link>http://localhost:4000/blog/</link>
     <atom:link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 06 Nov 2018 17:11:39 +0100</pubDate>
-    <lastBuildDate>Tue, 06 Nov 2018 17:11:39 +0100</lastBuildDate>
+    <pubDate>Tue, 06 Nov 2018 17:16:30 +0100</pubDate>
+    <lastBuildDate>Tue, 06 Nov 2018 17:16:30 +0100</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>ldm</title>
+        <description>&lt;p&gt;&lt;em&gt;me&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;kedqsd&lt;/p&gt;
+</description>
+        <pubDate>Fri, 02 Nov 2018 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/blog/post/2018/11/02/ldm.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/post/2018/11/02/ldm.html</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
     
       <item>
         <title>random</title>
@@ -138,21 +153,6 @@
         <pubDate>Sat, 20 Oct 2018 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/blog/post/2018/10/20/sdsdsd.html</link>
         <guid isPermaLink="true">http://localhost:4000/blog/post/2018/10/20/sdsdsd.html</guid>
-        
-        
-        <category>post</category>
-        
-      </item>
-    
-      <item>
-        <title>sdsd</title>
-        <description>&lt;p&gt;&lt;em&gt;sdsd&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;starfou&lt;/p&gt;
-</description>
-        <pubDate>Sat, 20 Oct 2018 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/blog/post/2018/10/20/sdsd.html</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/post/2018/10/20/sdsd.html</guid>
         
         
         <category>post</category>
