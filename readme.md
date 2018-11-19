@@ -12,7 +12,7 @@ Le projet est développé en Java, le site statique est directement hébergé su
 ##### Organisation et roadmap
 Afin de suivre l'avancement du projet, il est attendu chaque semaine un fichier log permettatn de rendre compte de l'activité effectuée sur le projet. A ceci s'ajoute un tableau d'avancement permettant d'évaluer les fonctionnalités faites et celles encore à faire.
 
-![Roadmap](https://github.com/Evrard-Nil/acdc/master/roadmapACDC.png "roadmap")
+![Roadmap](https://github.com/Evrard-Nil/acdc/blob/master/roadmapACDC.png "roadmap")
 
 ##OLD
 
