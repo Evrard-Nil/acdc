@@ -1,10 +1,20 @@
-# ACDC project - FILA1
+# Actualisation des Compétences en Développement et Conception
 ***
+## Getting Sarted
+Cette section décrira comment reproduire la solution localement.
+***
+## Introduction
+##### Contexte
+Ce projet a été mené dans le cadre de de l'UV ACDC du semestre 1 en Filière Ingénièries Logcielle. Le but du projet est de permettre l'ajout de publication à un site web statique de façon dynamique. Le rendu final attendu est une interface facilitant la création de publication. Le projet est découpé en deux phases, dans la première une version on se concentre sur une API en proposant simplement une interface en ligne de commande. A l'issus de cette phase, nous échangeons le code au sein du groupe, afin de débuter la deuxième phase: à partir d'un code qui nous est inconnu, nous réalisons une interface graphique.
+##### Technologie
+Le projet est développé en Java, le site statique est directement hébergé sur Gitlab et utilise Gitlab pages, une fonctionnalité permettant de publier un site web statique directement depuis un répertoire gitlab. Le site web statique est produit grâce à l'outil jekyll.
 
-This repo contains the latest code of ACDC project.
+##### Organisation et roadmap
+Afin de suivre l'avancement du projet, il est attendu chaque semaine un fichier log permettatn de rendre compte de l'activité effectuée sur le projet. A ceci s'ajoute un tableau d'avancement permettant d'évaluer les fonctionnalités faites et celles encore à faire.
 
+![Roadmap](https://github.com/Evrard-Nil/acdc/master/roadmapACDC.png "roadmap")
 
-The purpose of the project is to allow the dynamic addition of post on a site hosted via github pages.
+##OLD
 
 Step 1: Acquire the different entries to make an article
 
