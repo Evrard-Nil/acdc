@@ -3,7 +3,14 @@
 ## Getting Sarted
 Cette section décrit comment reproduire la solution localement.
 ##### Prérequis
+ - Jekyll
+ - Java
+ - Git et une clée SSH configurée
 
+Cloner ce répertoire
+Ouvrir le dossier dans Eclipse et indiquer dans le main le chemin du blog.
+Génerer un jar et le lancer avec la commande:
+`java -jar nomdujar.jar`
 ***
 ## Introduction
 ##### Contexte
@@ -16,58 +23,37 @@ Afin de suivre l'avancement du projet, il est attendu chaque semaine un fichier 
 
 ![Roadmap](https://github.com/Evrard-Nil/acdc/blob/master/roadmapACDC.png "roadmap")
 
-##OLD
+## Logs
+##### Log du 04/10 au 10/10:
+- Lecture et appropriation du sujet
+- Réunion avec les autres participants du projet
+- Accord sur le travail demandé
+- Reflexion sur le sujet
+- Création d’un diagramme UML simple
+- Réunion avec le professeur référent à venir le jeudi 11/10
+- Documentation sur l’outil Jekyll et le langage markdown
+##### Log du 10/10 au 17/10:
+- Tests manuels d’ajout de pages jekyll
+- 1ère implantation de saisie par commande des fichiers markdown et écriture de ces
+derniers
+##### Log du 17/10 au 24/10:
+- Implantation de la compilation jekyll par java
+- Implantation du lancement d’une demo jekyll par java
+- Réorganisation du code (V2)
+- Ebauche de fonction gitCommit()
+- 
+##### Log du 24/10 au 31/10:
+- Fin de la fonction gitCommit-)
+- Fonction gitPush()
+- Organisation du code
 
-Step 1: Acquire the different entries to make an article
+##### Log du 31/10 au 07/11
+- Refactoring du code
 
-Step 2: Generate a .md file of the post
+##### Log du 07/11 au 14/11
+- pas avancé le projet
 
-Step 3: Using jeyll, turn the markdown files into html
+##### Log du 14/11 au 21/11
+- Réorganisation du code 
+- Tests sur windows: soucis d'arrêt du programme
 
-Step 4: Using jekyll, launch a demo of the site with the new post
-
-Step 5: Under user validation, push the changes on git
-
-## Run this project
-***
-
-In order to run this code:
-
-- Clone this repo
-
-- Run code folder in any java IDE
-
-Post will be created in _posttest/date-title.markdown
-
-
-## API v1:
-***
-### Getters
-***
-
-- [X] string getTitle()
-- [X] string getDate()
-- [X] string getCategory()
-- [X] string getContent()
-- [X] string getAuthor()
-- [X] string getPath()
-***
-### Setters
-***
-- [X] setTitle(string title)
-- [X] setDate(string date)
-- [X] setCategory(string category)
-- [X] setContent(string content)
-- [X] setAuthor(string auth)
-- [X] setPath(string path)
-***
-### Other
-***
-- [X] writeFile(string path, string category, string date, string content, string auth, string title)
-- [X] addCategery(string newCategory)
-- [X] string[] getAllCateg()
-- [X] launchDemo()
-- [X] commitGit()
-- [X] pushGit()
-
-written w/ [Axel Coudray](github.com/acoudray1/)
