@@ -22,8 +22,9 @@ Le projet est développé en Java, le site statique est directement hébergé su
 Afin de suivre l'avancement du projet, il est attendu chaque semaine un fichier log permettatn de rendre compte de l'activité effectuée sur le projet. A ceci s'ajoute un tableau d'avancement permettant d'évaluer les fonctionnalités faites et celles encore à faire.
 
 ![Roadmap](https://github.com/Evrard-Nil/acdc/blob/master/roadmapACDC.png "roadmap")
-##Choix d'implémentation
+## Choix d'implémentation
 ![UML](https://github.com/Evrard-Nil/acdc/blob/master/uml.png "UML")
+Pour cette API, j'ai choisi de représenter les publications par une classe sans logique inhérente, simplement composée de getters et de setters. Dans la classe tools on trouve toutes les méthodes 'outils' permettant d'implémenter la logique. Cette dernière fait appel à la classer Commands pour toute les méthodes ayant besoin de lancer une ligne de commande (jekyll et git). De plus la classe Category permet de gérer les catégories de publication, en les récupérant, en ajoutant ou en supprimant.
 ## Logs
 ##### Log du 04/10 au 10/10:
 - Lecture et appropriation du sujet
