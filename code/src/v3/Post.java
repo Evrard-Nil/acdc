@@ -5,9 +5,10 @@ package v3;
  * 
  * @version 3
  * 
- * This class is an implementation of a publication dynamically created and added to a static website.
+ * Cette classe est une représentation d'une publication
+ * Elle n''implique aucune logique et implémente simplement
+ * les getters et setters.
  * 
- *
  */
 public class Post {
 

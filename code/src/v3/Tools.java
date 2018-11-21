@@ -1,48 +1,71 @@
 package v3;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
-import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
+import java.util.concurrent.ExecutorService;
 
-
+/**
+ * Classe reunissant les differents outils utilisés par les autres classes
+ * 
+ * @author edaillet
+ *
+ */
 public class Tools {
 	
-	private String path="/home/daillet/IMT/project"+File.separator+ "_testsite"+File.separator+ "_posts"+File.separator;
+	//singleton cmdManager
+	private static Commands cmdManager = Commands.commandManager;
+	// Lieu du dossier _post
+	private String path="d:/Profiles/edaillet/dev/IMT/acdc/blog/myblog/_posts";
 	
-
+	/**
+	 * getter
+	 * 
+	 * @return Lieu du dossier _post
+	 */
 	public String getPath() {
 		return path;
 	}
-
+	/**
+	 * setter
+	 * 
+	 * @param path Lieu du dossier _post
+	 */
 	public void setPath(String path) {
 		this.path = path;
 	}
-	
-	public String toMarkdown(String title, String layout, String category, String date, String author, String content) {
+	/**
+	 * Méthode permettant de generer un string au format markdown
+	 * 
+	 * @param title
+	 * @param layout
+	 * @param category
+	 * @param date
+	 * @param author
+	 * @param content
+	 * @return
+	 */
+	public String toMarkdown(Post post) {
 		return "---\n"
-				+"layout: "+layout+ "\n"
-				+"title: \""+title+"\"\n"
-				+"categories: "+category+"\n"
-				+"date: "+date+"\n"
+				+"layout: "+post.getLayout()+ "\n"
+				+"title: \""+post.getTitle()+"\"\n"
+				+"categories: "+post.getCategory()+"\n"
+				+"date: "+post.getDate()+"\n"
 				+"---\n\n"
-				+"*"+author+"*\n\n"
-				+content
+				+"*"+post.getAuthor()+"*\n\n"
+				+post.getContent()
 				;
 	}
-
+	/**
+	 * Methode d'ajout d'un string à la suite d'un fichier
+	 * 
+	 * @param contentAdd
+	 * @param date
+	 * @param title
+	 */
 	public void writeFile(String contentAdd, String date, String title) {
-		// Write file 
-		String filename= this.path + date+"-"+title.replace(' ','_')+".markdown";
+
+		String filename= this.path+"/_posts/" + date+"-"+title.replace(' ','_')+".markdown";
 		PrintWriter writer;
 		try {
 			writer = new PrintWriter(filename);
@@ -55,140 +78,53 @@ public class Tools {
 	}
 
 	/**
-	 * Open and read a file, and return the lines in the file as a list
-	 * of Strings.
-	 * (Demonstrates Java FileReader, BufferedReader, and Java5.)
+	 * Permet de lancer une demo du ste jusqu'à sa fermeture par l'utilisateur
+	 * 
+	 *  [ERROR] le programme ne s'arrête pas sur windows.
+	 * @throws InterruptedException
 	 */
-	public List<String> getAllCategories() {
-		List<String> records = new ArrayList<String>();
-		try
-		{
-			BufferedReader reader = new BufferedReader(new FileReader("categories"));
-			String line;
-			while ((line = reader.readLine()) != null)
-			{
-				records.add(line);
-			}
-			reader.close();
-			return records;
-		}
-		catch (Exception e)
-		{
-			System.err.format("Exception occurred trying to read '%s'.", "categories");
-			e.printStackTrace();
-			return null;
-		}
-	}
-
-	public void addCateg(String newCat) {
-		try
-		{
-			BufferedWriter w = new BufferedWriter(new FileWriter("categories", true));
-			w.append(newCat+"\n");
-			w.close();
-		}
-		catch (Exception e)
-		{
-			System.err.format("Exception occurred trying to write '%s'.", "categories");
-			e.printStackTrace();
-		}
-	}
-	 		
-
-
-	public void demo() throws InterruptedException {
-		this.runCommandUntilDestroy("bundle exec jekyll serve -o");
+	public void launchWebsite(Scanner sc) throws InterruptedException {
+		ExecutorService exe = cmdManager.runCommand("bundle exec jekyll serve -o", this.path);
+		Tools.askUserFor(sc, "Press enter to kill demo");
+		exe.shutdownNow();
 	}
 	
+	/**
+	 * Méthode permettant de commit les changements sur git
+	 * 
+	 * @param commit
+	 * @throws InterruptedException
+	 */
 	public void gitCommit(String commit) throws InterruptedException {
-		this.runCommand("git status ; git add . ; git commit -m \""+commit+"\"; git status");
+		cmdManager.runCommand("git status ; git add . ; git commit -m \""+commit+"\"; git status", this.path);
 	}
 	
-	
+	/**
+	 * Méthode permettant de push sur le répertoire distant.
+	 * 
+	 * @throws InterruptedException
+	 */
 	public void gitPush() throws InterruptedException {
 		Scanner tempScanner = new Scanner(System.in);
-		String username= this.askFor(tempScanner,"Username");
-		String pwd = this.askFor(tempScanner,"Password");
-		this.runCommand("git config --global user.name \""+username+"\";git config --global user.password \""+pwd+"\";git push");
+		String username= Tools.askUserFor(tempScanner,"Username");
+		String pwd = Tools.askUserFor(tempScanner,"Password");
+		cmdManager.runCommand("git config --global user.name \""+username+"\";git config --global user.password \""+pwd+"\";git push", this.path);
 		tempScanner.close();
 	}
 	
-	public String askFor(Scanner sc, String info) {
+	/**
+	 * Méthode permettant de demander à l'utilisateur une information
+	 * but de refactoring du code
+	 * @param sc
+	 * @param info
+	 * @return
+	 */
+	static public String askUserFor(Scanner sc, String info) {
 		System.out.println(info+" :");
 		return sc.nextLine();
 	}
 	
 	
-	public void runCommand(String cmd) throws InterruptedException {
-		try {
-			Process process = this.createProcess(cmd).start();
-			CommandManager streamGcommobbler = new CommandManager(process.getInputStream(), System.out::println);
-			Executors.newSingleThreadExecutor().submit(streamGcommobbler);
-			int exitCode = process.waitFor();
-			assert exitCode == 0;
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-	}
-	
-	public void runCommandUntilDestroy(String cmd) {
-		try {
-			Process process = this.createProcess(cmd).start();
-			CommandManager commandManager = new CommandManager(process.getInputStream(), System.out::println);
-			Executors.newSingleThreadExecutor().submit(commandManager);
-			try {
-				TimeUnit.SECONDS.sleep(3);
-			} catch (InterruptedException e) {
-				e.printStackTrace();
-			}
-			System.out.println("Press enter to stop demo");
-			System.in.read();
-			System.out.println("Demo killed");
-			process.destroy();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-	}
 
-	private ProcessBuilder createProcess(String cmd) throws IOException {
-		final boolean isWindows = System.getProperty("os.name").toLowerCase().startsWith("windows");
-		ProcessBuilder builder = new ProcessBuilder();
-		if (isWindows) {
-			builder.command("cmd.exe", "/c", cmd);
-		} else {
-			builder.command("sh", "-c", cmd);
-		}
-		builder.directory(new File(System.getProperty(path)));
-		return builder;
-	}
 
-	public boolean remove(String lineToRemove) {
-		try {
-			File inputFile = new File("categories");
-			File tempFile = new File("tempCategories");
-
-			BufferedReader reader = new BufferedReader(new FileReader(inputFile));
-			BufferedWriter writer = new BufferedWriter(new FileWriter(tempFile));
-			String currentLine;
-
-			while((currentLine = reader.readLine()) != null) {
-			    // trim newline when comparing with lineToRemove
-			    String trimmedLine = currentLine.trim();
-			    if(trimmedLine.equals(lineToRemove)) continue;
-			    writer.write(currentLine + System.getProperty("line.separator"));
-			}
-			writer.close(); 
-			reader.close(); 
-			boolean successful = tempFile.renameTo(inputFile);
-			return successful;
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-			return false;
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-			return false;
-		} 		
-	}
 }
