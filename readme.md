@@ -1,7 +1,9 @@
 # Actualisation des Compétences en Développement et Conception
 ***
 ## Getting Sarted
-Cette section décrira comment reproduire la solution localement.
+Cette section décrit comment reproduire la solution localement.
+##### Prérequis
+
 ***
 ## Introduction
 ##### Contexte
